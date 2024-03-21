@@ -1,12 +1,22 @@
 //Question 40: Album: Create objects for music albums.
 
-// function make_album(artist: string, title: string, tracks?: number) {
-//     let album = {artist  ,  title , tracks};
-//     if(tracks) {
-//         album[`tracks`] = tracks;
-//     }
-//     return album;
-// }
+ function make_album(artist: string, title:string,tracks?:number){
+    let album = {
+      artist: artist,
+      title: title,
+     
+     
+      }
+      if (tracks) {
+        album['tracks'] = tracks;
+      }
+      return album
+  }
+  
+  console.log(make_album('Taylor Swift', 'Fearless',2));
+  console.log(make_album('Ed Sheeran', '÷ (Divide)'));
+  console.log(make_album('Beyoncé', 'Lemonade',2));
+
 
 // console.log(make_album("Atif Aslam", "Atif's first Album"));
 // console.log(make_album("Ali Zafar", "Zafar's  Album" ));
