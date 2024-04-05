@@ -1,13 +1,12 @@
 {
   "name": "100_days_coding_challenge",
   "version": "1.0.0",
-  "description": "\"# 100_days_coding_challenge\"",
-  "main": "1day.js",
+  "description": "\"This is 100 days coding challenge.\"",
+  "main": "index.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "\"Alishba Naseem\"",
   "license": "ISC"
 }
